@@ -72,7 +72,7 @@ if (index===question.correct){
   return (
     <div className="App">
       {
-        step != questions.length ? <Game  question={question} 
+        step != questions.length ? <Game  step={step} question={question} 
         onClickVariant={onClickVariant}/>:(
         <Result correct={correct}/>
         )}
